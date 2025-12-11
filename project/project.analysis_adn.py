@@ -25,7 +25,7 @@ print(df, "\n" "\n")
 # Opérations sur les tableaux:
 print("************** Opérations **************","\n")
 
-#1) sélectionner la colonne "longueur"
+#2) sélectionner la colonne "longueur"
 longueurs = df["longueur"]
 print(longueurs,"\n")
 
