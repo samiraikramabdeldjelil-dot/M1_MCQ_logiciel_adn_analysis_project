@@ -55,4 +55,4 @@ print(df, "\n")
 
 #8)sauvegarde et chargement des données avec pandas 
 # sauvegarder le dataframe dans un fichier CSV 
-df.to_csv("Tableau _sequences.csv" , index-False)
+df.to_csv("Tableau_sequences.csv" , index=False)
