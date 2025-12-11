@@ -8,3 +8,23 @@
 
 import pandas as pd
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Opérations sur les tableaux:
+print("************** Opérations **************","\n")
+
+#1) sélectionner la colonne "longueur"
+longueurs = df["longueur"]
+print(longueurs,"\n")
