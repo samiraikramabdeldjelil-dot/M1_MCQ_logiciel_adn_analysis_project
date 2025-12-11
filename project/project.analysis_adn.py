@@ -50,5 +50,5 @@ print(df,"\n")
 #6)Ajouter une colonne donnant le nombre de'G'dans chaque séquence
 df["Nombre de G"] = df["Séquence"].str.count("G")
 # Ajouter une colonne donnant le nombre de 'G'dans chaque séquence
-print("===== 6) Nombre de G ajoutés =====")
+print("************** Nombre de G ajoutés **************")
 print(df, "\n")
