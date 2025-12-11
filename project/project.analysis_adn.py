@@ -25,9 +25,9 @@ print(df, "\n" "\n")
 # Opérations sur les tableaux:
 print("************** Opérations **************","\n")
 
-#2) sélectionner la colonne "longueur"
-longueurs = df["longueur"]
-print(longueurs,"\n")
+#2) sélectionner la colonne "Longueur"
+Longueurs = df["Longueur"]
+print(Longueurs,"\n")
 
 #3)Filtrage dont la longueur est supérieure à 10
 print("************* Filtrage avec la longueur *************","\n")
