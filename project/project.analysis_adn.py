@@ -54,5 +54,5 @@ print("************** Nombre de G ajoutés **************")
 print(df, "\n")
 
 #8)sauvegarde et chargement des données avec pandas 
-a sauvegarder le dataframe dans un fichier CSV 
+# sauvegarder le dataframe dans un fichier CSV 
 df.to_csv("Tableau _sequences.csv" , index-False)
