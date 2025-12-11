@@ -52,3 +52,6 @@ df["Nombre de G"] = df["Séquence"].str.count("G")
 # Ajouter une colonne donnant le nombre de 'G'dans chaque séquence
 print("************** Nombre de G ajoutés **************")
 print(df, "\n")
+
+#8)sauvegarde et chargement des données avec panda a sauvegarder le dataframe dans un fichier CSV 
+df.to_csv("Tableau _sequences. csv" ,  index-false)
