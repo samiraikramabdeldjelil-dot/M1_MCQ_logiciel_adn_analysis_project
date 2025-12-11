@@ -29,10 +29,10 @@ print("************** Opérations **************","\n")
 Longueurs = df["Longueur"]
 print(Longueurs,"\n")
 
-#3)Filtrage dont la longueur est supérieure à 10
-print("************* Filtrage avec la longueur *************","\n")
+#3)Filtrage dont la Longueur est supérieure à 10
+print("************* Filtrage avec la Longueur *************","\n")
 
-filtered_df = df[df["longueur de séquence"] > 10] 
+filtered_df = df[df["Longueur de séquence"] > 10] 
 print(filtered_df,"\n") 
 
 #4)calcul le pourcentage moyen de GC avec 3 chiffres aprés la virgule
