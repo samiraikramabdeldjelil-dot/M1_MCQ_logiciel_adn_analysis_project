@@ -34,3 +34,9 @@ print("************* Filtrage avec la longueur *************","\n")
 
 filtered_df = df[df["longueur de séquence"] > 10] 
 print(filtered_df,"\n") 
+
+#4)calcul le pourcentage moyen de GC avec 3 chiffres aprés la virgule
+print("************** Calcul de la moyenne de GC **************","\n")
+
+average_gc = df["Pourcentage GC"].mean()
+print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
