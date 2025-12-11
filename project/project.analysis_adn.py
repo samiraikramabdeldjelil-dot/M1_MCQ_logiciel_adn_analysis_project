@@ -19,7 +19,7 @@ df = pd.DataFrame(data)
 print("**************** Creattion et affichage ****************","\n")
       
 # Affichage du tableau
-print("Tableau des séquences ADN :, \n")
+print("Tableau des séquences ADN:", "\n")
 print(df, "\n" "\n")
 
 # Opérations sur les tableaux:
